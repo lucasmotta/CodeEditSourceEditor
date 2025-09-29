@@ -51,7 +51,7 @@ final class BezelNotification {
 
         let window = NSPanel(
             contentRect: .zero,
-            styleMask: [.borderless, .hudWindow],
+            styleMask: [.borderless, .nonactivatingPanel, .hudWindow],
             backing: .buffered,
             defer: true
         )
